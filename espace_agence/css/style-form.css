@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ******************* FORM ****************** */
+h3{
+    padding-top: 10px;
+    color: #4ECDC1 !important;
+}
+
+h4{
+    text-decoration: none  !important;
+    text-transform: none !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+section
+
+{
+    width: 50%;
+    padding: 20px;
+    margin: auto !important;
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+    -moz-box-shadow: 3px 3px 12px 0px #cfcfcf;
+-webkit-box-shadow: 3px 3px 12px 0px #cfcfcf;
+-o-box-shadow: 3px 3px 12px 0px #cfcfcf;
+box-shadow: 3px 3px 12px 0px #cfcfcf;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=135, Strength=12);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+td
+{
+
+    padding: 0px !important;
+
+}
+
+.img-space
+
+{
+
+    padding-top: 3% !important;
+
+}
+
+.img-space2
+
+{
+
+    padding-bottom: 3% !important;
+
+}
+
+.correct
+
+{
+
+    width: 53%;
+
+}
+
+
+
+.contact-first{
+
+    color: #2ecc71 !important;
+}
+
+
+.space3
+
+{
+
+    padding-top: 1% !important;
+
+}
+
+
+
+.space4
+
+{
+
+    padding-bottom: 30px !important;
+
+}
+
+
+.howto
+
+{
+
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+
+}
+
+.margep
+
+{
+
+    padding: 5px !important;
+
+}

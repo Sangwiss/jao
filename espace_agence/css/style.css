@@ -1,0 +1,494 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ******************* FOOTER ****************** */
+footer{
+    padding: 25px 25px;
+    text-align: center;
+    background-color: #282828;
+}
+
+footer p,
+footer a{
+    color: #e9e9e9; 
+    font-size: 14px;
+}
+
+footer .titre-footer{
+     font-family: 'Open Sans', sans-serif;
+     color: #e9e9e9;
+     font-size: 14px;
+     text-transform: uppercase;
+     text-align: center;   
+ }
+
+footer ul {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    list-style:none;
+    padding: 0;
+}
+
+footer ul li{
+    text-align: center;
+}
+
+footer ul li a{
+    color: #e9e9e9;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+}
+
+footer ul.social-buttons li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 20px;
+    outline: 0;
+    color: #282828;
+    background-color: #e9e9e9;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a i{
+    padding-top:5px;
+
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fbd145;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+button{
+	background-color:transparent; 
+	border:none; 
+	height:200px;
+}
+
+button.rev{
+	background-color:transparent; 
+	border:none; 
+	height:40px;
+}
+
+button.none{
+	border: 2px outset buttonface;
+	padding: 2px 6px 3px;
+	align-items: flex-start;
+    text-align: center;
+	background-color: buttonface;
+	height:25px;
+}
+
+button.resize{
+	background-color:transparent; 
+	border:none; 
+	height:100%;
+}
+
+button.none_menu{
+	background-color:transparent; 
+	border:none; 
+	height:100%;
+}
+
+img.bg{
+	
+	/* Set rules to fill background */
+        /*min-height: 100%;*/
+        /*min-width: 1024px;*/
+
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto!important;
+
+        /* Set up positioning */
+        /*position: fixed;*/
+        top: 0;
+        left: 0;
+}
+
+button.workshop{
+	background-image:url(../icones/bt/01_event_work.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.workshop:focus{
+	background-image:url(../icones/bt/01_event_work_o.jpg);
+}
+
+button.conference{
+	background-image:url(../icones/bt/01_event_conf.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.conference:focus{
+	background-image:url(../icones/bt/01_event_conf_o.jpg);
+}
+
+button.projection{
+	background-image:url(../icones/bt/01_event_proj.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.projection:focus{
+	background-image:url(../icones/bt/01_event_proj_o.jpg);
+}
+
+button.exposition{
+	background-image:url(../icones/bt/01_event_expo.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.exposition:focus{
+	background-image:url(../icones/bt/01_event_expo_o.jpg);
+}
+
+button.concours{
+	background-image:url(../icones/bt/01_event_concours.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.concours:focus{
+	background-image:url(../icones/bt/01_event_concours_o.jpg);
+}
+
+button.rencontre{
+	background-image:url(../icones/bt/01_event_rencontres.jpg);
+	height:73px;
+	width:97px;
+	background-repeat:no-repeat;
+}
+
+button.rencontre:focus{
+	background-image:url(../icones/bt/01_event_rencontres_o.jpg);
+}
+
+button.paris{
+	background-image:url(../icones/bt/02_Zone_Paris.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.paris:focus{
+	background-image:url(../icones/bt/02_Zone_Paris_o.jpg);
+}
+
+button.toulouse{
+	background-image:url(../icones/bt/02_Zone_Toulouse.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.toulouse:focus{
+	background-image:url(../icones/bt/02_Zone_Toulouse_o.jpg);
+}
+
+button.bordeaux{
+	background-image:url(../icones/bt/02_Zone_Bordeaux.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.bordeaux:focus{
+	background-image:url(../icones/bt/02_Zone_Bordeaux_o.jpg);
+}
+
+button.lyon{
+	background-image:url(../icones/bt/02_Zone_Lyon.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.lyon:focus{
+	background-image:url(../icones/bt/02_Zone_Lyon_o.jpg);
+}
+
+button.lille{
+	background-image:url(../icones/bt/02_Zone_Lille.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.lille:focus{
+	background-image:url(../icones/bt/02_Zone_Lille_o.jpg);
+}
+
+button.montpellier{
+	background-image:url(../icones/bt/02_Zone_Montpellier.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.montpellier:focus{
+	background-image:url(../icones/bt/02_Zone_Montpellier_o.jpg);
+}
+
+button.strasbourg{
+	background-image:url(../icones/bt/02_Zone_Strasbourg.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.strasbourg:focus{
+	background-image:url(../icones/bt/02_Zone_Strasbourg_o.jpg);
+}
+
+button.nantes{
+	background-image:url(../icones/bt/02_Zone_Nantes.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.nantes:focus{
+	background-image:url(../icones/bt/02_Zone_Nantes_o.jpg);
+}
+
+button.outre_mer{
+	background-image:url(../icones/bt/02_Zone_Outre.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.outre_mer:focus{
+	background-image:url(../icones/bt/02_Zone_Outre_o.jpg);
+}
+
+button.malvoyant{
+	background-image:url(../icones/bt/03_handi_nvoyant.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.malvoyant:focus{
+	background-image:url(../icones/bt/03_handi_nvoyant_o.jpg);
+}
+
+button.malentendant{
+	background-image:url(../icones/bt/03_handi_sourd.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.malentendant:focus{
+	background-image:url(../icones/bt/03_handi_sourd_o.jpg);
+}
+
+button.mobilite{
+	background-image:url(../icones/bt/03_handi_mobilite.jpg);
+	height:73px;
+	width:99px;
+	background-repeat:no-repeat;
+}
+
+button.mobilite:focus{
+	background-image:url(../icones/bt/03_handi_mobilite_o.jpg);
+}
+
+button.all_wide{
+	background-image:url(../icones/bt/all.jpg);
+	height:65px;
+	width:199px;
+	background-repeat:no-repeat;
+}
+
+button.all{
+	background-image: url(../img/toutes_les_agences.png);
+	height:21px;
+	width:183px;
+	background-repeat:no-repeat;
+}
+
+.verticalLine {
+    border: none!important;
+	border-right:0px!important;
+	border-left:0px!important;
+	border-bottom:0px!important;
+	border-top:0px!important;
+    border-collapse: collapse!important;
+	border-spacing:0px;
+	margin: 0 0;
+}
+
+.styleContent{
+	padding: 1em 3.3125em;
+    background: #fff;
+}
+
+.styleContentMetro{
+	padding: 0;
+    background: #fff;
+}
+
+.styleContentBloc{
+	padding: 1em 0em;
+    background: #fff;
+}
+
+.contentBoxPodStyleContent{
+	padding: 2.8125em 5.3125em;
+    background: #fff;
+	
+}
+
+.contentBoxPodStyleContentMetro{
+	padding: 0;
+    background: #fff;
+	min-height: 100px!important;
+	
+}
+
+.contentBoxPodStyleContentGoogleMap{
+	padding: 1em 1em;
+    background: #fff;
+	
+}
+
+.styleContentNone{
+	width:4px!important;
+	
+	border: none!important;
+	border-right:0px!important;
+	border-left:0px!important;
+	border-bottom:0px!important;
+	border-top:0px!important;
+    border-collapse: collapse!important;
+}
+
+.styleContentNonePag{
+	width:1px!important;
+	border-bottom:0px!important;
+    border-collapse: collapse!important;
+}
+
+.metroContent{
+	border: none!important;
+	border-right:1px solid rgba(194,194,194,1.00)!important;
+	border-left:0px!important;
+	border-bottom:0px!important;
+	border-top:0px!important;
+    border-collapse: collapse!important;
+	border-spacing:0px;
+}
+
+.contactContent{
+	border: none!important;
+	border-right:0px!important;
+	border-left:0px!important;
+	border-bottom:0px!important;
+	border-top:0px!important;
+    border-collapse: collapse!important;
+	border-spacing:0px;
+}
+
+.boxResize {
+  padding: 1.25em;
+  background: #f2f2f2;
+  border-radius: 0.1875rem;
+  color: #39414a; 
+  height: 390px;
+}
+  
+.boxResize-no-image{
+  /*padding: 1.25em;*/
+  background: #f2f2f2;
+  border-radius: 0.1875rem;
+  color: #39414a;
+  width:100%;
+}
+  
+.bgIndex{
+  background-position: center top;
+  background-attachment: local;
+  background-repeat:no-repeat;
+  background-size:100%;
+}
+
+/*.index{
+	padding-top:200px;
+}*/
+
+.sp-icone-index {
+	padding-right:2em;
+}
+
+.menu_wide{
+	display:block;
+}
+
+.menu_little{
+	display:none;
+}
+
+.bloc_menu_little {
+		
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.menu_wide {
+		display: none;
+	}
+	
+	.menu_little {
+		display:block;
+	}
+}
+
+.sep{
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 100px solid #daf4f3;
+	background: #daf4f3;
+}
+
+
+/* PAGINATION */
+
+button.pag_next{
+	background-image: url(../icones/bt/next.jpg);
+	/*height:21px;
+	width:183px;*/
+	background-repeat:no-repeat;
+}

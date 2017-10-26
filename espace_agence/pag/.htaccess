@@ -1,0 +1,75 @@
+
+RewriteEngine On
+
+RedirectPermanent ^/$ http://<http://www.agences-ouvertes.com/>/JAO2017/index.html
+
+Options -Indexes
+
+<Files .htaccess>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files .htpasswd>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files config.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files juridique.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files moteur.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files recherche.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files header.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files selection.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files ip.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+order deny,allow
+allow from 192.168.1.11
+allow from 90.43.201.45
+allow from 77.154.193.221
+deny from all

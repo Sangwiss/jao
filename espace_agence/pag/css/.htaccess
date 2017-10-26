@@ -1,0 +1,78 @@
+Options -Indexes
+
+<Files .htaccess>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files .htpasswd>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files db.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files juridique.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files moteur.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files recherche.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files header.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files selection.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files ip.php>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files sqlquery.sql>
+
+order allow,deny
+deny from all
+
+</Files>
+
+<Files config.php>
+
+order allow,deny
+deny from all
+
+</Files>
